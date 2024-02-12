@@ -1,8 +1,7 @@
 # True Visual Grounding
 
-[Uncovering the Full Potential of Visual Grounding Methods in VQA](https://arxiv.org/abs/2401.07803)
-
-Daniel Reich and Tanja Schultz
+Repo for the paper [Uncovering the Full Potential of Visual Grounding Methods in VQA](https://arxiv.org/abs/2401.07803)
+(Daniel Reich and Tanja Schultz)
 
 
 ## Setup
@@ -18,8 +17,7 @@ pip install -r requirements.txt
 ```
 ### Setup data and project directory
 - Inside `scripts/common.sh`, edit `PROJ_DIR` variable by assigning it the project path.
-- Most required data to run experiments can be downloaded manually here: 
-
+- Most required data to run experiments from the paper can be downloaded manually here (setup scripts below will download files from there): https://zenodo.org/records/10357278
 
 #### For GQA
 Download data for GQA:
@@ -32,10 +30,11 @@ Preprocess the data:
 ```
 
 #### For VQA-HAT
-Download data for VQA-HAT:
+Download data for VQA-HAT (make sure to also use included files under files/ in this repo):
 ```bash
 ./scripts/download/download_truevg_vqa.sh
 ```
+
 Preprocess the data:
 ```bash
 ./scripts/preprocessing/preprocessing_truevg_vqa.sh
