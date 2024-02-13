@@ -3,6 +3,8 @@
 Repo for the paper [Uncovering the Full Potential of Visual Grounding Methods in VQA](https://arxiv.org/abs/2401.07803)
 (Daniel Reich and Tanja Schultz)
 
+![main-fig](./images/truevg_main_fig.jpg)
+
 
 ## Setup
 ### Environment
