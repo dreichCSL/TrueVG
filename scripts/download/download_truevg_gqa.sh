@@ -9,7 +9,7 @@ cd data
 # get shared files from zenodo
 wget https://zenodo.org/records/10357278/files/gqacp_data.zip
 unzip gqacp_data.zip
-mv gqacp_truevg_release hatcp
+mv gqacp_truevg_release gqacp
 rm gqacp_data.zip
 cd gqacp
 
